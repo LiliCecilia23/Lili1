@@ -3,43 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACtivity 1: About Me</title>
+    <title>Activity 1: About Me</title>
     <style>
-       h1 {
+       header {
            margin-bottom:15px;
+           margin-top: -65px;
            font-size:58px;
            color:white;
            text-align:center;
-           text-decoration: underline;
-           background-color: black;
+           background-color: teal;
+           font-family: Georgia, 'Times New Roman', Times, serif;
        }
        h2 {
            margin-top:15px;
            margin-bottom: 15px;
+           margin-left: 50px;
            font-size: 48px;
-           text-align: center;
+           text-align: left;
+           width:200px;
        }
        img {
-           margin-left:auto;
-           margin-right: auto;
+           margin-left:50px;
+           margin-right: 20px;
+           float: left;
            display: block;
+           border-width: 5px;
+           border-style: inset;
+           border-color: teal;
        }
        p {
-           text-align: center;
-           font-size: 28px;
-           font-weight: bold;
+           text-align: left;
+           font-size: 20px;
+           float: left;
+           width:400px;
+           margin-top: -20px;
+       }
+       h3 {
+           text-align: left;
+           margin-right: 50px;
+           margin-top: -65px;
+           font-size: 48px;
+           float: right;
+           margin-bottom: 0px;
        }
        ul {
-           text-align: center;
-           font-size: 35px;
-           border-style: solid;
-           border-width: 5px;
+           text-align: left;
+           margin-right: 50px;
+           margin-top: 0px;
+           font-size: 20px;
            list-style-position: inside;
+           width:400px;
+           float: right;
+           height: 75px;
+           width: 250px;
        }
+       body {
+           background-color: paleturquoise;
+       }
+       
     </style>
 </head>
 <body>
-    <h1>Student Bio</h1>
+    <section>
+        <header>
+            <h1>Student Bio</h1>
+        </header>   
     <h2>Lili Clift</h2>
     <div>
         <img src=https://avatars1.githubusercontent.com/u/65939150?s=460&u=4c87fd262ea2397dd8a6d653df90da424b0cee5a&v=4 height=200px width=200px>
@@ -50,8 +78,10 @@
         at Austin and got a degree in English literature. I am learning to code so I can (hopefully)</br>
         get a better job! In my spare time I like to go to concerts and play video games.
     </p>
+    </section>  
+    <section>
     <div>
-        <h2>Contact Info</h2>
+        <h3>Contact Info</h3>
     </div>
     <div>
         <ul>
@@ -60,5 +90,6 @@
             <li><strong>Portfolio:</strong> <a href=placeholder>Coming Soon</a></li>
         </ul>
     </div>
+    </section>
 </body>
 </html>
